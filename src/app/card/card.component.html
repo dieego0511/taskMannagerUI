@@ -1,0 +1,18 @@
+
+
+<ul>
+    <li *ngFor=" let task of tasks">
+    <div class="col-md-3">
+        <div class="card text-center mt-4">
+            <div   div class="card-body">
+                <a  target=".blank">
+                    <h1 class="card-title text-uppercase">
+                        {{task.tittle}}
+                    </h1>
+                </a>
+                <p class="m-2" >{{task.description}}</p>
+            </div>
+        </div>
+    </div>
+    </li>
+</ul>
